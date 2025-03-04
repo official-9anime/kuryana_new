@@ -11,7 +11,7 @@ flake8==5.0.4
 h11==0.13.0
 idna==3.3
 iniconfig==1.1.1
-lxml==4.9.1
+lxml>=4.9.1 --only-binary=:all:
 mccabe==0.7.0
 mypy==0.971
 mypy-extensions==0.4.3
